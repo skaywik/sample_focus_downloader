@@ -3,7 +3,7 @@ import json
 import requests
 
 # query sample focus to retrieve the download link from their page
-LINK = "https://samplefocus.com/samples/hardstyle-bass-kick-13"
+LINK = "https://samplefocus.com/samples/drill-808-bass-line-c"
 response = requests.get(LINK)
 print(response.status_code)
 
